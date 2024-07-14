@@ -1,0 +1,26 @@
+
+% main.tex
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx} % For including graphics (logos)
+\usepackage[top=2cm]{geometry}
+\usepackage{times}
+
+
+\begin{document}
+	
+	\input{title}  % Include the title file
+	\cleardoublepage  % Start from a new page
+	\pagenumbering{arabic} 
+	\setcounter{page}{1} 
+	\tableofcontents
+	
+	\include{chapter1}
+	\include{chapter2}
+	\include{chapter3}
+	\include{chapter4}
+	
+	
+	\bibliographystyle {acm}
+	\bibliography{thesis}
+	
+\end{document}
