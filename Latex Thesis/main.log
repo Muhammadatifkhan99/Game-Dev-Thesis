@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.20)  20 SEP 2024 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.20)  20 SEP 2024 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,7 +317,7 @@ Package hyperref Info: Link coloring OFF on input line 11.
 \openout3 = `main.out'.
 
  (title.tex
-<D:/UoPLOGO.jpg, id=355, 40.953pt x 46.2528pt>
+<D:/UoPLOGO.jpg, id=371, 40.953pt x 46.2528pt>
 File: D:/UoPLOGO.jpg Graphic file (type jpg)
 <use D:/UoPLOGO.jpg>
 Package pdftex.def Info: D:/UoPLOGO.jpg  used on input line 11.
@@ -426,7 +426,7 @@ Chapter 3.
 [16]
 
 [17]
-<UseCase(1).png, id=523, 1073.00874pt x 681.54625pt>
+<UseCase(1).png, id=543, 1073.00874pt x 681.54625pt>
 File: UseCase(1).png Graphic file (type png)
 <use UseCase(1).png>
 Package pdftex.def Info: UseCase(1).png  used on input line 120.
@@ -466,7 +466,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--125
 
  (chapter4.tex
 Chapter 4.
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png, id=560, 697.60625pt
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png, id=580, 697.60625pt
  x 355.3275pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png Graphic file (t
 ype png)
@@ -514,8 +514,8 @@ r ar-chi-tec-ture. The game's
 [25]
 
 [26]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png, id=5
-89, 863.225pt x 4031.06pt>
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png, id=6
+09, 863.225pt x 4031.06pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png 
 Graphic file (type png)
 <use C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png>
@@ -532,7 +532,7 @@ eofProximityA4.png  used on input line 121.
 [29]
 
 [30]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png, id=616, 1943.2
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png, id=636, 1943.2
 6pt x 10373.75626pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png Graphic fi
 le (type png)
@@ -545,7 +545,7 @@ sign.png  used on input line 266.
 [31]
 
 [32 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png, id=627, 874.26
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png, id=647, 874.26
 625pt x 1979.395pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png Graphic fi
 le (type png)
@@ -580,7 +580,7 @@ ISystem\OT1/ptm/m/n/12 ). These classes
 
 
 [34 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg, id=646, 3030.3212
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg, id=666, 3030.3212
 4pt x 1052.93375pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg Graphic file 
 (type jpg)
@@ -617,7 +617,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 352--356
 
  []
 
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png, id=651
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png, id=671
 , 393.47pt x 351.3125pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png Gr
 aphic file (type png)
@@ -633,7 +633,7 @@ Overfull \hbox (54.61388pt too wide) in paragraph at lines 357--358
 
 
 [36 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png, id=659, 
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png, id=679, 
 1278.7775pt x 964.60374pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png Grap
 hic file (type png)
@@ -649,7 +649,7 @@ Overfull \hbox (54.61841pt too wide) in paragraph at lines 384--385
 
 
 [37 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png, id=665, 2178.1375pt
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png, id=685, 2178.1375pt
  x 1249.66875pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png Graphic file (t
 ype png)
@@ -712,7 +712,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--452
 
 
 [39 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png, id=677, 1402.23875pt x
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png, id=697, 1402.23875pt x
  1249.66875pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png Graphic file (type
  png)
@@ -760,7 +760,7 @@ Chapter 5.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
-)
+
 
 [43
 
@@ -768,20 +768,58 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 
 ]
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of Implemented Module Struct
+ure.png, id=723, 611.28375pt x 1149.29375pt>
+File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of Implemented Module S
+tructure.png Graphic file (type png)
+<use C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of Implemented Module St
+ructure.png>
+Package pdftex.def Info: C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of I
+mplemented Module Structure.png  used on input line 50.
+(pdftex.def)             Requested size: 455.24373pt x 512.1619pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--54
+
+ []
+
+
+Overfull \hbox (36.99005pt too wide) in paragraph at lines 47--54
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--54
+
+ []
+
+
+
+[44]
+
+[45 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of Implemented Module St
+ructure.png>]
+Overfull \hbox (0.98506pt too wide) in paragraph at lines 68--69
+[]\OT1/ptm/m/n/12 Updates the user in-ter-face dy-nam-i-cally based on player a
+c-tions and sta-tus changes. 
+ []
+
+)
+
+[46]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
 Chapter 6.
 )
 
-[44
+[47
 
 
 
 
 ] (main.bbl)
 
-[45
+[48
 
 
 
@@ -795,34 +833,25 @@ L3 programming layer <2024-08-30>
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 39DCD56D877F92B151AD42B4F1EEE482;13313
-(rerunfilecheck)             After:  564DDB7181A47528745907A02858C16B;13130.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 274D391CA6A22B0750E66E2833BD18FA;14125.
  ) 
 Here is how much of TeX's memory you used:
- 9701 strings out of 473898
- 156775 string characters out of 5726951
+ 9720 strings out of 473898
+ 157586 string characters out of 5726951
  555916 words of memory out of 5000000
- 32238 multiletter control sequences out of 15000+600000
+ 32249 multiletter control sequences out of 15000+600000
  574652 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,739b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection.5.0.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-<C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb
-><C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb>
-<C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><
-C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (46 pages, 1716560 bytes).
+<C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.p
+fb><C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pf
+b><C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb
+><C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on main.pdf (49 pages, 1745874 bytes).
 PDF statistics:
- 774 PDF objects out of 1000 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
- 760 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 193 named destinations out of 1000 (max. 500000)
+ 797 words of extra memory for PDF output out of 10000 (max. 10000000)
 
