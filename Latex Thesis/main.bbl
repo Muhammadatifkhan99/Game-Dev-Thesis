@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{hocking2022unity}
+{\sc Hocking, J.}
+\newblock {\em Unity in action: multiplatform game development in C}.
+\newblock Simon and Schuster, 2022.
+
+\bibitem{kleppmann2017designing}
+{\sc Kleppmann, M.}
+\newblock {\em Designing Data-Intensive Applications: The Big Ideas Behind
+  Reliable, Scalable, and Maintainable Systems}.
+\newblock O'Reilly Media, Inc., Sebastopol, CA, 2017.
+
+\bibitem{singh2023effect}
+{\sc Singh, G., and Vangavolu, V. V. S. S.~R.}
+\newblock Effect of resolution on player performance and experience in virtual
+  reality low-fidelity first-person shooting games, 2023.
+
+\end{thebibliography}
