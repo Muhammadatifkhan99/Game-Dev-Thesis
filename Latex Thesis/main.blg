@@ -11,50 +11,52 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter4.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter5.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter6.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: acm.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for "unity_ecs"
-You've used 3 entries,
+You've used 4 entries,
             2253 wiz_defined-function locations,
-            548 strings with 4418 characters,
-and the built_in function-call counts, 702 in all, are:
-= -- 59
-> -- 26
+            555 strings with 4542 characters,
+and the built_in function-call counts, 925 in all, are:
+= -- 81
+> -- 33
 < -- 0
-+ -- 11
-- -- 8
-* -- 35
-:= -- 124
-add.period$ -- 8
-call.type$ -- 3
-change.case$ -- 11
++ -- 14
+- -- 10
+* -- 43
+:= -- 161
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 34
-empty$ -- 70
-format.name$ -- 8
-if$ -- 146
+cite$ -- 4
+duplicate$ -- 42
+empty$ -- 93
+format.name$ -- 10
+if$ -- 195
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 4
 missing$ -- 4
-newline$ -- 17
-num.names$ -- 6
-pop$ -- 25
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 33
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 13
 quote$ -- 0
-skip$ -- 20
+skip$ -- 26
 stack$ -- 0
-substring$ -- 15
-swap$ -- 6
+substring$ -- 20
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 12
 warning$ -- 0
-while$ -- 6
-width$ -- 4
-write$ -- 31
+while$ -- 8
+width$ -- 5
+write$ -- 43
 (There was 1 warning)

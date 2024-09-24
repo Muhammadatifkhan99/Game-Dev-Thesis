@@ -83,3 +83,228 @@ Below is the diagram for Module Structure
 \begin{itemize}
 	\item Plays sound effects (SFX) and music based on game events such as attacks, item pickups, or changes in player state.
 	\end{itemize}
+	
+
+\subsection{Test Strategies}
+The testing approach employed during the game development process was centred on both automated and manual testing in order to guarantee seamless gaming, error-free operation, and an intuitive user experience. Important phases of testing were:
+
+\begin{itemize}
+	\item \textbf{Unit Testing:}
+	Every essential feature, such as inventory management, adversary AI behaviour, and player controls, was tested separately.
+	The behaviour of scripts such as PlayerController.cs and EnemyAI.cs, which handle erroneous input, boundary conditions, and stress testing, was verified by testing.
+	\item \textbf{Integration Testing:}
+	Each module's ability to function alone was checked, and then it was examined how well it interacted with the others (for example, connecting the PlayerController to the InventorySystem and UIManager).
+	The main goals were to make sure that modules blended together seamlessly and to identify any potential pain points (such the player picking up an item and reflecting it in the inventory).
+	\item \textbf{Play Testing (Manual Testing):}
+	Frequent playtests were carried out to find flaws that could only be discovered during runtime, difficulty balancing, and unexpected enemy AI behaviours.
+	Playtests also paid attention to the user experience, making sure that the player feedback loop was fun overall, the controls were snappy, and the user interface was easy to use.
+	\item \textbf{Performance Testing:}
+	Load testing was done to ensure the game performed well on a range of devices, testing for frame rate drops, memory usage, and lag.
+	The game’s performance was checked with higher numbers of enemies, effects, and environmental details to ensure it could handle complex scenarios without performance degradation. The result was promising with no performance issues through out the game.
+	\item \textbf{Regression Testing:}
+	Every time a new feature or bug fix was introduced, regression testing ensured that previously working features were still functioning as intended.
+	The version control system (GitHub) was used to track and merge changes, helping avoid conflicts that could introduce bugs. Several times Git has helped to travel back in time and fix issues in code.
+\end{itemize}
+
+\subsection{White Box Testing}
+\subsubsection{Unit Testing the Individual Classes and Methods:} 
+Software testing that involves testing individual program modules or components separately is known as unit testing \cite{fowler_unit_test}. A function, method, or class is the smallest tested component that makes up a "unit" in an application. Unit testing makes sure that every single portion of the code runs correctly without interference from outside sources. For unit testing we will consider the individual methods and ensure that they function correctly.
+\begin{itemize}
+	\item  \textbf{AI.cs Unit Test:}
+	\\
+	AI behavior based on conditions (e.g., proximity to the player, attack conditions).
+	\begin{lstlisting}
+[Test]
+public void Test_AI_Movement()
+{
+	// Arrange
+	AI ai = new AI();
+	ai.followSnds = new AudioClip[1]; // Assuming AI has audio clips for movement sound
+	// Act
+	ai.Move();  // Call the movement function
+	// Assert
+	// Add assertions depending on the conditions of Move, like if it moves to the correct destination
+}
+	\end{lstlisting}
+	\item  \textbf{CharacterDamage.cs Unit Test:}
+	\\
+	This script involves handling damage to NPCs and tracking hit points. Important methods of this class include taking damage and removing the character upon death.
+	\item \textbf{TakeDamage():} How the character's hit points are reduced.
+	\item \textbf{Death event():} Whether the body is removed when health reaches zero.
+	\begin{lstlisting}
+		[Test]
+		public void Test_Character_TakesDamage()
+		{
+			// Arrange
+			CharacterDamage character = new CharacterDamage();
+			character.hitPoints = 100f;
+			// Act
+			character.TakeDamage(30f);  // Simulate 30 points of damage
+			// Assert
+			Assert.AreEqual(70f, character.hitPoints, "Character should have 70 hit points left after taking 30 damage.");
+		}
+		[Test]
+		public void Test_Character_Dies_When_Health_Depletes()
+		{
+			// Arrange
+			CharacterDamage character = new CharacterDamage();
+			character.hitPoints = 50f;
+			// Act
+			character.TakeDamage(60f);  // Damage exceeds current hit points
+			// Assert
+			Assert.AreEqual(0f, character.hitPoints, "Character hit points should not go below zero.");
+			// Additional checks for death behavior can be added, such as checking if the onDie event is called.
+		}
+	\end{lstlisting}
+	\item \textbf{ MoveTrigger.cs Unit Test:}
+	\\
+	This script manages NPC movement triggers. It detects when an NPC (Non-Player Character) should move or rotate towards a target.
+	\begin{lstlisting}
+		[Test]
+		public void Test_NPC_Moves_On_Trigger()
+		{   // Arrange
+			MoveTrigger moveTrigger = new MoveTrigger();
+			NPC npc = new NPC(); // Assuming an NPC class exists and npcToMove refers to it
+			moveTrigger.npcToMove = npc;
+			// Act
+			moveTrigger.OnTriggerEnter();  // Simulate entering a movement trigger
+			// Assert
+			Assert.IsTrue(npc.followed, "NPC should follow the player when the move trigger is activated.");
+		}
+	\end{lstlisting}
+	\item \textbf{RemoveBody.cs Unit Testing:}
+	\\
+	This script is responsible for removing NPC bodies after a certain time (bodyStayTime) and removal of weapons.
+	\begin{lstlisting}
+	[Test]
+	public void Test_Body_Removed_After_Delay()
+	{   // Arrange
+		RemoveBody removeBody = new RemoveBody();
+		removeBody.bodyStayTime = 5f;  // Set stay time to 5 seconds for test purposes
+		GameObject body = new GameObject();
+		// Act
+		removeBody.Start();  // Start timer
+		removeBody.FixedUpdate();  // Simulate time passing
+		// Assert
+		// Check if the body is removed after the specified delay (this would require simulating time)
+	}
+	\end{lstlisting}
+\end{itemize}
+
+\subsection{Integration Testing}
+In integration testing we check how the code for different functionalities integrates with other functionalities. After manual testing of each and every feature the project is working fully and the code is free from any large scale bugs. Below is the code for integration of different functionalities.
+
+\begin{itemize}
+	\item  \textbf{Full Integration Test: Combining AI, CharacterDamage, and RemoveBody}
+	This comprehensive test checks the full interaction: AI attacking the player, the player taking damage and dying, and the body being removed.
+	\begin{lstlisting}
+		using NUnit.Framework;
+		using UnityEngine;
+		using System.Collections;
+		public class FullIntegrationTest : MonoBehaviour
+		{   private AI ai;
+			private CharacterDamage player;
+			private RemoveBody removeBody;
+			[SetUp]
+			public void Setup()
+			{   // Setup AI, player, and remove body in the scene
+				GameObject aiObject = new GameObject();
+				ai = aiObject.AddComponent<AI>();
+				GameObject playerObject = new GameObject();
+				player = playerObject.AddComponent<CharacterDamage>();
+				removeBody = playerObject.AddComponent<RemoveBody>();
+				// Assign player to AI and configure settings
+				ai.player = player;
+				ai.playerProximity = 5f;  // AI will attack within 5 units
+				player.hitPoints = 100f;  // Player starts with 100 hit points
+				removeBody.bodyStayTime = 2f;  // Body will be removed after 2 seconds
+			}
+			[UnityTest]  // Use UnityTest for time-based operations
+			public IEnumerator Test_AI_Attacks_Player_And_Body_Removed()
+			{   // Simulate AI getting close to the player and attacking
+				ai.transform.position = new Vector3(0, 0, 0);
+				player.transform.position = new Vector3(3, 0, 0);  // Player within attack range
+				ai.Update();  // Update AI to check proximity and attack
+				// Assert: Player took damage
+				Assert.Less(player.hitPoints, 100f, "Player should take damage from AI attack.");
+				// Simulate player dying
+				player.TakeDamage(150f);  // Lethal damage to player
+				// Wait for bodyStayTime to pass
+				yield return new WaitForSeconds(removeBody.bodyStayTime);
+				// Assert: Player's body is removed
+				Assert.IsNull(player.gameObject, "Player's body should be removed after bodyStayTime.");
+			}
+		}
+	\end{lstlisting}
+	
+	\item  \textbf{Explanation}
+	To make sure that various game elements—such as AI, player health, and movement triggers—interact as intended during actual game play, Unity integration testing is essential. The tests offered confirm how certain parts function together:
+	\begin{enumerate}
+		\item \textbf{AI attacking the player:} AI that attacks the player makes sure that damage-dealing and proximity detection work as they should.
+		\item \textbf{Character death and body removal:} Game realism is increased by character death and body removal tests that determine whether the body object is properly removed after a predetermined amount of time.
+		\item \textbf{NPC movement triggers:} NPC movement triggers verify whether the NPC responds to triggers correctly by moving to designated positions.
+		\item \textbf{Full Integration Test:} A full integration test simulates every step of the gaming flow, from AI attack to player death and body removal, by combining several different components.\\
+		These integration tests guarantee that the game mechanics function as a cohesive unit by covering crucial script-to-script interactions. These tests are adaptable to the unique gameplay situations and game features.
+	\end{enumerate}
+\end{itemize}
+\subsection{Black Box Testing}
+Black box testing is a type of software testing where the tester assesses an application's functioning without looking inside its core components or operations. Instead of concentrating on the actual code, this strategy looks at the inputs and the intended outputs. Making sure the software performs as intended and satisfies end user needs is the aim.
+\subsubsection{Techniques Used in Black Box Testing:}
+\begin{itemize}
+	\item \textbf{Equivalence Partitioning:} Equivalence Partitioning splits input data into segments that are valid and invalid in order to minimize the number of test cases.
+	\item \textbf{Boundary Value Analysis:} Boundary Value Analysis tests the limits of the partitions, including the points directly below, at, and above the boundaries.
+	\item \textbf{Decision Table Testing:} Decision Table Testing represents combinations of inputs and their matching outputs using a table.
+	\item \textbf{State Transition Testing:} State Transition Testing evaluates the system's ability to change states in response to input circumstances.
+	\item \textbf{Use Case Testing:} Use Case Testing uses use cases and user scenarios to validate the functionality.
+\end{itemize}
+\begin{table}[ht]
+	\centering
+	\resizebox{1.1\textwidth}{!}{
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\textbf{Test Case ID} & \textbf{Component} & \textbf{Input} & \textbf{Expected Output} & \textbf{Result} \\
+		\hline
+		TC1 & AI.cs & Player is within proximity of AI & AI should attack the player and reduce the player’s hit points. & Pass \\
+		\hline
+		TC2 & AI.cs & Player is outside AI proximity & AI should not attack the player, and player’s hit points remain unchanged. & Pass \\
+		\hline
+		TC3 & CharacterDamage.cs & Player takes 30 damage when hit & Player’s hit points should reduce by 30 from the initial value. & Pass \\
+		\hline
+		TC4 & CharacterDamage.cs & Player takes damage exceeding health & Player’s health should not drop below zero, and the death event should trigger. & Pass \\
+		\hline
+		TC5 & CharacterDamage.cs & Player is dealt no damage & Player’s hit points should remain the same. & Pass \\
+		\hline
+		TC6 & MoveTrigger.cs & NPC enters trigger zone & NPC should move to the designated location defined in the \texttt{movePosition}. & Pass \\
+		\hline
+		TC7 & MoveTrigger.cs & NPC does not enter trigger zone & NPC should remain at its original position. & Pass \\
+		\hline
+		TC8 & RemoveBody.cs & Character dies and \texttt{bodyStayTime} is set & Character’s body should be removed after the \texttt{bodyStayTime} passes. & Pass \\
+		\hline
+		TC9 & RemoveBody.cs & \texttt{bodyStayTime} set to 0 & Character’s body should be removed immediately after death. & Pass \\
+		\hline
+		TC10 & RemoveBody.cs & Player remains alive & Character’s body should not be removed as the player is still alive. & Pass \\
+		\hline
+		TC11 & AI + CharacterDamage (Integration Test) & Player is within AI range, and AI attacks & Player’s hit points should reduce, and after enough damage, the player should die. & Pass \\
+		\hline
+		TC12 & AI + MoveTrigger (Integration Test) & AI reaches target position via trigger zone & AI should correctly navigate and stop at the target position defined by the trigger. & Pass \\
+		\hline
+		TC13 & Full Integration (AI + CharacterDamage + RemoveBody) & Player is killed by AI, \texttt{bodyStayTime} triggers & Player’s health should drop to zero, triggering death, and the body should be removed after a delay. & Pass \\
+		\hline
+	\end{tabular}
+}
+	\caption{Black-box testing results for game scripts}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

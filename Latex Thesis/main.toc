@@ -111,4 +111,10 @@
 \contentsline {subsubsection}{InventorySystem.cs}{44}{section*.23}%
 \contentsline {subsection}{\numberline {5.0.5}UIManager.cs}{44}{subsection.5.0.5}%
 \contentsline {subsection}{\numberline {5.0.6} Design of Implemented Module Structure:}{45}{subsection.5.0.6}%
-\contentsline {chapter}{\numberline {6}Deployment}{47}{chapter.6}%
+\contentsline {subsection}{\numberline {5.0.7}Test Strategies}{46}{subsection.5.0.7}%
+\contentsline {subsection}{\numberline {5.0.8}White Box Testing}{47}{subsection.5.0.8}%
+\contentsline {subsubsection}{Unit Testing the Individual Classes and Methods:}{47}{section*.24}%
+\contentsline {subsection}{\numberline {5.0.9}Integration Testing}{49}{subsection.5.0.9}%
+\contentsline {subsection}{\numberline {5.0.10}Black Box Testing}{51}{subsection.5.0.10}%
+\contentsline {subsubsection}{Techniques Used in Black Box Testing:}{51}{section*.25}%
+\contentsline {chapter}{\numberline {6}Deployment}{52}{chapter.6}%

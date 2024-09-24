@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{fowler_unit_test}
+{\sc Fowler, M.}
+\newblock Unit test.
+\newblock \url{https://martinfowler.com/bliki/UnitTest.html}, 2021.
+\newblock Accessed: 2024-09-17.
+
 \bibitem{hocking2022unity}
 {\sc Hocking, J.}
 \newblock {\em Unity in action: multiplatform game development in C}.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.20)  20 SEP 2024 12:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.20)  24 SEP 2024 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,8 +218,54 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-1.
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count284
+\lst@gtempboxa=\box52
+\lst@token=\toks19
+\lst@length=\count285
+\lst@currlwidth=\dimen156
+\lst@column=\count286
+\lst@pos=\count287
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count288
+\lst@lineno=\count289
+\lst@maxwidth=\dimen159
+
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count290
+\lst@skipnumbers=\count291
+\lst@framebox=\box53
+)
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
+))
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
+
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+4.
 
 (C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -227,45 +273,45 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count284
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count292
+\l__pdf_internal_box=\box54
 ) (main.aux (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux)
 (chapter5.aux) (chapter6.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen156
-\scratchbox=\box53
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen157
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count293
+\scratchdimen=\dimen160
+\scratchbox=\box55
+\nofMPsegments=\count294
+\nofMParguments=\count295
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen161
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
+\everyMPtoPDFconversion=\toks21
 )
 (C:\Users\PMLS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
@@ -311,13 +357,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 34.
 (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
+\c@lstlisting=\count299
  (title.tex
-<D:/UoPLOGO.jpg, id=371, 40.953pt x 46.2528pt>
+<D:/UoPLOGO.jpg, id=387, 40.953pt x 46.2528pt>
 File: D:/UoPLOGO.jpg Graphic file (type jpg)
 <use D:/UoPLOGO.jpg>
 Package pdftex.def Info: D:/UoPLOGO.jpg  used on input line 11.
@@ -426,7 +473,7 @@ Chapter 3.
 [16]
 
 [17]
-<UseCase(1).png, id=543, 1073.00874pt x 681.54625pt>
+<UseCase(1).png, id=563, 1073.00874pt x 681.54625pt>
 File: UseCase(1).png Graphic file (type png)
 <use UseCase(1).png>
 Package pdftex.def Info: UseCase(1).png  used on input line 120.
@@ -466,7 +513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--125
 
  (chapter4.tex
 Chapter 4.
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png, id=580, 697.60625pt
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png, id=600, 697.60625pt
  x 355.3275pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png Graphic file (t
 ype png)
@@ -515,7 +562,7 @@ r ar-chi-tec-ture. The game's
 
 [26]
 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png, id=6
-09, 863.225pt x 4031.06pt>
+29, 863.225pt x 4031.06pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png 
 Graphic file (type png)
 <use C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png>
@@ -532,7 +579,7 @@ eofProximityA4.png  used on input line 121.
 [29]
 
 [30]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png, id=636, 1943.2
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png, id=656, 1943.2
 6pt x 10373.75626pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png Graphic fi
 le (type png)
@@ -545,7 +592,7 @@ sign.png  used on input line 266.
 [31]
 
 [32 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png, id=647, 874.26
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png, id=667, 874.26
 625pt x 1979.395pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png Graphic fi
 le (type png)
@@ -580,7 +627,7 @@ ISystem\OT1/ptm/m/n/12 ). These classes
 
 
 [34 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg, id=666, 3030.3212
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg, id=686, 3030.3212
 4pt x 1052.93375pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg Graphic file 
 (type jpg)
@@ -617,7 +664,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 352--356
 
  []
 
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png, id=671
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png, id=691
 , 393.47pt x 351.3125pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png Gr
 aphic file (type png)
@@ -633,7 +680,7 @@ Overfull \hbox (54.61388pt too wide) in paragraph at lines 357--358
 
 
 [36 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png, id=679, 
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png, id=699, 
 1278.7775pt x 964.60374pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png Grap
 hic file (type png)
@@ -649,7 +696,7 @@ Overfull \hbox (54.61841pt too wide) in paragraph at lines 384--385
 
 
 [37 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png, id=685, 2178.1375pt
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png, id=705, 2178.1375pt
  x 1249.66875pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png Graphic file (t
 ype png)
@@ -712,7 +759,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--452
 
 
 [39 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png>]
-<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png, id=697, 1402.23875pt x
+<C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png, id=717, 1402.23875pt x
  1249.66875pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png Graphic file (type
  png)
@@ -769,7 +816,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 ]
 <C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of Implemented Module Struct
-ure.png, id=723, 611.28375pt x 1149.29375pt>
+ure.png, id=743, 611.28375pt x 1149.29375pt>
 File: C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of Implemented Module S
 tructure.png Graphic file (type png)
 <use C://Users/PMLS/Desktop/Thesis/Latex Thesis/Design of Implemented Module St
@@ -803,23 +850,50 @@ Overfull \hbox (0.98506pt too wide) in paragraph at lines 68--69
 c-tions and sta-tus changes. 
  []
 
-)
+
 
 [46]
+
+[47]
+
+[48]
+
+[49]
+Overfull \hbox (0.7095pt too wide) in paragraph at lines 240--242
+[]\OT1/ptm/b/n/12 Explanation \OT1/ptm/m/n/12 To make sure that var-i-ous game 
+el-e-ments|such as AI, player health,
+ []
+
+
+
+[50]
+Overfull \hbox (41.82866pt too wide) in paragraph at lines 262--295
+ [][] 
+ []
+
+)
+
+[51]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
 Chapter 6.
 )
 
-[47
+[52
 
 
 
 
-] (main.bbl)
+] (main.bbl
+Underfull \hbox (badness 4899) in paragraph at lines 4--8
+[]\OT1/ptm/m/sc/12 Fowler, M.  \OT1/ptm/m/n/12 Unit test.  []$\OT1/pcr/m/n/12 h
+ttps : / / martinfowler . com / bliki /
+ []
 
-[48
+)
+
+[53
 
 
 
@@ -834,24 +908,24 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 274D391CA6A22B0750E66E2833BD18FA;14125.
+(rerunfilecheck)             Checksum: 45114F227333B75E0A7587799B9B1F4F;14752.
  ) 
 Here is how much of TeX's memory you used:
- 9720 strings out of 473898
- 157586 string characters out of 5726951
- 555916 words of memory out of 5000000
- 32249 multiletter control sequences out of 15000+600000
- 574652 words of font info for 65 fonts, out of 8000000 for 9000
+ 11818 strings out of 473898
+ 186918 string characters out of 5726951
+ 824336 words of memory out of 5000000
+ 34204 multiletter control sequences out of 15000+600000
+ 575674 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,739b,660s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,739b,2034s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.p
 fb><C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pf
 b><C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb
 ><C:/Users/PMLS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (49 pages, 1745874 bytes).
+Output written on main.pdf (54 pages, 1783534 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 797 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 986 PDF objects out of 1000 (max. 8388607)
+ 309 named destinations out of 1000 (max. 500000)
+ 829 words of extra memory for PDF output out of 10000 (max. 10000000)
 
