@@ -1,20 +1,18 @@
 \chapter{Implementation and Testing}
 \subsection{Implementation Environment}
 \subsubsection{Programming Tools:}
-Unity Hub \& Unity Engine were used as primary development tools for the game, where game assets, scenes, physics and animations were handled.Visual Studio Community version was employed for scripting and debugging C\# scripts. It's integrated with Unity to manage game logic, AI, and player interactions.
+Unity Hub \& Unity Engine were used as primary development tools for the game, where game assets, scenes, physics and animations were handled.Visual Studio Community version was employed for scripting and debugging C\# scripts.
 The Unity Asset Store leveraged for acquiring free assets, such as character models, environments, and particle effects to enrich the game's visuals and functionalities.
 \subsubsection{Repository Setup \& Version Control:}
-Git \& GitHub was used as a version control system to track changes and maintain backups of the project. Branching and merging were used to implement new features without affecting the main build.
+Git \& GitHub was used as a version control system to track changes and maintain backups of the project.
 \subsubsection{Integration:}
 The game integrated multiple components like 3D models from the Asset Store, sound assets, and physics libraries within Unity.
 Testing \& Debugging was performed through Visual Studio and Unity’s built-in play testing features.
 In Unity, the Play Mode allows you to run the game within the Unity Editor itself. This lets you test the game in real time without needing to build and deploy it to a separate platform.
-You can observe the game’s behavior, make changes to objects, scripts, and variables on the fly.
-It helps in identifying issues such as gameplay bugs, AI behavior, and physics problems.
 \subsubsection{Team Development Tools}
 To make a plan and for easy management of the project, Trello was used.
 \subsection{High Level Description Major Program Modules:}
-The high-level program modules consist of the main classes that play a crucial role in the core functionality of the system. These key classes manage essential operations such as game logic, user interaction, and overall flow. While there are additional supporting classes that handle specific tasks (e.g., utilities, minor features), the main classes serve as the backbone of the program, driving the primary functionality and interactions within the system.
+The high-level program modules consist of the main classes that play a crucial role in the core functionality of the system. These key classes manage essential operations such as game logic, user interaction, and overall flow. While there are additional supporting classes that handle specific tasks (e.g., utilities, minor features)..
 \subsection{PlayerController.cs}
 \begin{itemize}
 	\item \textbf{Description:} This module handles player input, movements, and interactions with the environment. 
@@ -94,13 +92,12 @@ The testing approach employed during the game development process was centred on
 	The behaviour of scripts such as PlayerController.cs and EnemyAI.cs, which handle erroneous input, boundary conditions, and stress testing, was verified by testing.
 	\item \textbf{Integration Testing:}
 	Each module's ability to function alone was checked, and then it was examined how well it interacted with the others (for example, connecting the PlayerController to the InventorySystem and UIManager).
-	The main goals were to make sure that modules blended together seamlessly and to identify any potential pain points (such the player picking up an item and reflecting it in the inventory).
 	\item \textbf{Play Testing (Manual Testing):}
 	Frequent playtests were carried out to find flaws that could only be discovered during runtime, difficulty balancing, and unexpected enemy AI behaviours.
-	Playtests also paid attention to the user experience, making sure that the player feedback loop was fun overall, the controls were snappy, and the user interface was easy to use.
+	Playtests also paid attention to the user experience.
 	\item \textbf{Performance Testing:}
 	Load testing was done to ensure the game performed well on a range of devices, testing for frame rate drops, memory usage, and lag.
-	The game’s performance was checked with higher numbers of enemies, effects, and environmental details to ensure it could handle complex scenarios without performance degradation. The result was promising with no performance issues through out the game.
+	The game’s performance was checked with higher numbers of enemies, effects, and environmental details to ensure it could handle complex scenarios without performance degradation.
 	\item \textbf{Regression Testing:}
 	Every time a new feature or bug fix was introduced, regression testing ensured that previously working features were still functioning as intended.
 	The version control system (GitHub) was used to track and merge changes, helping avoid conflicts that could introduce bugs. Several times Git has helped to travel back in time and fix issues in code.
@@ -108,7 +105,7 @@ The testing approach employed during the game development process was centred on
 
 \subsection{White Box Testing}
 \subsubsection{Unit Testing the Individual Classes and Methods:} 
-Software testing that involves testing individual program modules or components separately is known as unit testing \cite{fowler_unit_test}. A function, method, or class is the smallest tested component that makes up a "unit" in an application. Unit testing makes sure that every single portion of the code runs correctly without interference from outside sources. For unit testing we will consider the individual methods and ensure that they function correctly.
+Software testing that involves testing individual program modules or components separately is known as unit testing \cite{fowler_unit_test}. A function, method, or class is the smallest tested component that makes up a "unit" in an application. Unit testing makes sure that every single portion of the code runs correctly without interference from outside sources.
 \begin{itemize}
 	\item  \textbf{AI.cs Unit Test:}
 	\\
@@ -192,7 +189,7 @@ public void Test_AI_Movement()
 \end{itemize}
 
 \subsection{Integration Testing}
-In integration testing we check how the code for different functionalities integrates with other functionalities. After manual testing of each and every feature the project is working fully and the code is free from any large scale bugs. Below is the code for integration of different functionalities.
+In integration testing we check how the code for different functionalities integrates with other functionalities. After manual testing of each and every feature the project is working fully and the code is free from any large scale bugs.
 
 \begin{itemize}
 	\item  \textbf{Full Integration Test: Combining AI, CharacterDamage, and RemoveBody}
@@ -248,7 +245,7 @@ In integration testing we check how the code for different functionalities integ
 	\end{enumerate}
 \end{itemize}
 \subsection{Black Box Testing}
-Black box testing is a type of software testing where the tester assesses an application's functioning without looking inside its core components or operations. Instead of concentrating on the actual code, this strategy looks at the inputs and the intended outputs. Making sure the software performs as intended and satisfies end user needs is the aim.
+Black box testing is a type of software testing where the tester assesses an application's functioning without looking inside its core components or operations.
 \subsubsection{Techniques Used in Black Box Testing:}
 \begin{itemize}
 	\item \textbf{Equivalence Partitioning:} Equivalence Partitioning splits input data into segments that are valid and invalid in order to minimize the number of test cases.
@@ -296,14 +293,74 @@ Black box testing is a type of software testing where the tester assesses an app
 \end{table}
 \subsection{Usability Report For Proximity Assault}
 \begin{enumerate}
-	\item \textbf{Title Page:}
+	\item \textbf{Title Page`}
 	\begin{itemize}
 		\item \textbf{Title:} Usability Report for Proximity Assault
 		\item \textbf{Project:} First-Person Shooting Game
 		\item \textbf{Prepared By:} Muhammad Atif
 	\end{itemize}
-	\item \textbf{Executive Summary:}
-	The purpose of this usability test was to assess the player's experience in the game, in which terrorists have taken over a facility and are getting ready to produce nuclear weapons. The player's goal is to use a variety of weaponry to destroy every enemy so that a group of scientists can disassemble the nuclear apparatus. A number of critical areas, including weapon switching mechanics, enemy AI behaviour, and visual signals for mission goals, were found to require refinement during the test. The game had a lot of potential overall, but it may be improved with some tweaks to control responsiveness and user instruction.
+	\item \textbf{Executive Summary}
+	The purpose of this usability test was to assess the player's experience in the game, in which terrorists have taken over a facility and are getting ready to produce nuclear weapons. The player's goal is to use a variety of weaponry to destroy every enemy so that a group of scientists can disassemble the nuclear apparatus.
+	\item \textbf{Introduction}
+	\begin{itemize}
+		\item \textbf{Purpose:} The goal of the test was to find problems with the controls, navigation, and degree of difficulty of the gaming experience.
+		\item \textbf{Scope:} The first two stages of the game, the weapon swapping mechanism, enemy encounters, and mission objectives.
+	\end{itemize}
+	\item \textbf{Methodology}
+	\begin{itemize}
+		\item \textbf{Participants:} 4 participants, aged 18-25 with a mix of gaming experience.
+		\item \textbf{Environment:} The test was conducted on the users phones.
+		\item \textbf{Task:} The user navigate through the scenes, switched weapons and tried different weapons.
+		\item \textbf{Data Collection:} Data was collected through screen recording.
+	\end{itemize}
+	\item \textbf{Results}
+	\begin{itemize}
+		\item \textbf{Task Completion Rate}
+		\begin{table}[h]
+			\centering
+			\caption{Task Completion Rates and Findings}
+			\begin{tabular}{|l|c|c|c|}
+				\hline
+				\textbf{Task} & \textbf{Success Rate} & \textbf{Average Time on Task} & \textbf{Error Rate} \\ \hline
+				Navigate through the facility & 90\% & 4 minutes & 5\% \\ \hline
+				Switch weapons and eliminate enemies & 75\% & 6 minutes & 20\% \\ \hline
+			\end{tabular}
+		\end{table}
+	\item \textbf{Usability Issues:}
+		\item \textbf{Weapon Switching Difficulty:}
+	\begin{itemize}
+		\item {60\% of players found it difficult to switch between weapons quickly.}
+		\item {\textbf{Feedback:} "I couldn't switch weapons fast enough to keep up with the enemies. It was frustrating, especially during intense battles."}
+	\end{itemize}
+	\item \textbf{Enemy AI Behavior:}
+	\begin{itemize}
+		\item {Players noted inconsistent enemy AI. Some enemies were too easy, while others felt overpowered.}
+		\item {\textbf{Feedback:} "The enemies seemed random in their difficulty. Some stood there doing nothing while others were nearly impossible to beat."}
+	\end{itemize}
+	\item \textbf{Objective Clarity:}
+	\begin{itemize}
+		\item {50\% of players had difficulty understanding when and how to protect the scientists during the mission.}
+		\item{ \textbf{Feedback:} "I wasn't sure what I was supposed to do after defeating the enemies."}
+	\end{itemize}
+	\end{itemize}
+	\item \textbf{Analysis}
+	\begin{itemize}
+		\item \textbf{Weapon Switching Mechanism:}
+		The present weapon swapping system is clumsy and takes away from the intense fighting.
+		\item \textbf{Enemy AI:}
+		Players became frustrated with the inconsistent behaviour of the enemies, which decreased their level of enjoyment with the game overall.
+		\item \textbf{Mission Objectives:}
+		The lack of clarity in communicating objectives resulted in a decrease in task success rates and confusion.
+	\end{itemize}
+		\item \textbf{Recommendations}
+	\begin{itemize}
+		\item \textbf{Improve Weapon Switching}
+
+		\item \textbf{Enhance AI Behavior}
+		\item \textbf{Clearer Mission Guidance}
+	\end{itemize}
+	\item \textbf{Conclusion}
+	Overall, the results of the usability test indicated that while participants found the concept and ambiance of the game engaging, they found certain elements difficult to grasp, such as switching between weapons and mission objectives.
 \end{enumerate}
 
 

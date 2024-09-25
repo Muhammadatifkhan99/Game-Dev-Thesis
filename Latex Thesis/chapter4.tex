@@ -369,7 +369,6 @@ A Level 0 DFD provides a basic, overall picture of how the system interacts with
 
 \subsection{Level 1 Data Flow Diagram (DFD)}
 A Level 1 Data Flow Diagram (DFD) for an action shooting game represents a detailed view of the system. It breaks down the single process from the Level 0 DFD into several sub-processes and shows data flows between them.
-
 \begin{itemize}
 	\item \textbf{Player Input Handling}: Captures and processes inputs from the player, such as movement commands and shooting actions.
 	\item \textbf{Game Logic}: Manages the core mechanics of the game, including player movements, shooting mechanics, collision detection, and health management.
@@ -379,7 +378,7 @@ A Level 1 Data Flow Diagram (DFD) for an action shooting game represents a detai
 	\item \textbf{Game Data Management}: Stores and retrieves game-related data, such as player progress, scores, and game state.
 \end{itemize}
 
-The Level 1 DFD provides a detailed view of how the game system processes player inputs, manages game logic, handles enemy AI, and produces visual and audio outputs. It shows the interactions between these sub-processes and how data flows within the system.
+The Level 1 DFD provides a detailed view of how the game system processes player inputs, manages game logic, handles enemy AI, and produces visual and audio outputs.
 
 \includegraphics[width=16cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png}
 
@@ -406,21 +405,19 @@ The Level 1 DFD provides a detailed view of how the game system processes player
 	\item \textbf{Audio Assets (AA)}: Audio files and sound effects.
 \end{itemize}
 \subsubsection{Networking Component in DFD}
-The Networking section in the Data Flow Diagram (DFD) is included as a placeholder for potential future development. While the current version of the game is designed for offline play, the Networking component outlines how the system would handle network communication if the game were to be expanded into a multiplayer online game.
+The Networking section in the Data Flow Diagram (DFD) is included as a placeholder for potential future development. While the current version of the game is designed for offline play.
 \section{Data Design}
-Data design involves structuring and organizing data to efficiently store, manage, and retrieve it within a system. It defines how data elements, relationships, and constraints are represented, ensuring the system's data integrity and performance.
+Data design involves structuring and organizing data to efficiently store, manage, and retrieve it within a system.
 The data design diagram focuses on how the data is structured and managed.
-\\
 \\
 \includegraphics[width=17.5cm,height=13.5cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png}
 \subsection{Major Business Entities}
-
 \textbf{Player:}
-Represents the main character. This entity is central to the game, tracking important attributes like health, position, and equipped weapon. Players interact with various elements of the game, such as enemies and missions.
+Represents the main character. This entity is central to the game, tracking important attributes like health, position, and equipped weapon.
 \\
 \\
 \textbf{Weapon:}
-Represents the tools player uses to attack enemies. Each weapon has properties like damage, range, and ammo, which affect how the player can engage with enemies.
+Represents the tools player uses to attack enemies.
 \\
 \\
 \textbf{Enemy:}
@@ -436,7 +433,7 @@ Represents specific goals the player must achieve within a level or mission.
 \\
 \\
 \textbf{HUD (Heads-Up Display):}
-Represents the on-screen display elements that provide the player with essential information like health, ammo, and mission status. The HUD is crucial for enhancing the player's experience by keeping them informed about their status and objectives.
+Represents the on-screen display elements that provide the player with essential information like health, ammo, and mission status.
 \\
 \\
 \textbf{HealthBar}
@@ -451,7 +448,7 @@ Another component of the HUD that displays the current ammo count.
 Represents the system controlling enemy behavior and navigation.
 
 \subsection{Entity Relationship Diagram}
-The Entity-Relationship Diagram (ERD) for the game illustrates the main components and how they interact with each other. It shows that the Player equips Weapons and participates in Missions. Each Mission has specific Objectives and can involve various Enemies. Levels contain these missions and enemies. The HUD displays essential information like HealthBar and AmmoCount, helping the player keep track of their status and progress in the game.
+The Entity-Relationship Diagram (ERD) for the game illustrates the main components and how they interact with each other.
 \\
 \\
 \\
