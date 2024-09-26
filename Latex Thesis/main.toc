@@ -119,3 +119,4 @@
 \contentsline {subsubsection}{Techniques Used in Black Box Testing:}{47}{section*.25}%
 \contentsline {subsection}{\numberline {5.0.11}Usability Report For Proximity Assault}{48}{subsection.5.0.11}%
 \contentsline {chapter}{\numberline {6}Deployment}{50}{chapter.6}%
+\contentsline {subsection}{\numberline {6.0.1}Major Deployment Tasks}{50}{subsection.6.0.1}%
