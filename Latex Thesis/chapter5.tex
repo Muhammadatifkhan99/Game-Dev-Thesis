@@ -1,17 +1,17 @@
 \chapter{Implementation and Testing}
-\subsection{Implementation Environment}
-\subsubsection{Programming Tools:}
+\section{Implementation Environment}
+\subsection{Programming Tools:}
 Unity Hub \& Unity Engine were used as primary development tools for the game, where game assets, scenes, physics and animations were handled.Visual Studio Community version was employed for scripting and debugging C\# scripts.
 The Unity Asset Store leveraged for acquiring free assets, such as character models, environments, and particle effects to enrich the game's visuals and functionalities.
-\subsubsection{Repository Setup \& Version Control:}
+\subsection{Repository Setup \& Version Control:}
 Git \& GitHub was used as a version control system to track changes and maintain backups of the project.
-\subsubsection{Integration:}
+\subsection{Integration:}
 The game integrated multiple components like 3D models from the Asset Store, sound assets, and physics libraries within Unity.
 Testing \& Debugging was performed through Visual Studio and Unity’s built-in play testing features.
 In Unity, the Play Mode allows you to run the game within the Unity Editor itself. This lets you test the game in real time without needing to build and deploy it to a separate platform.
-\subsubsection{Team Development Tools}
+\subsection{Team Development Tools}
 To make a plan and for easy management of the project, Trello was used.
-\subsection{High Level Description Major Program Modules:}
+\section{High Level Description Major Program Modules:}
 The high-level program modules consist of the main classes that play a crucial role in the core functionality of the system. These key classes manage essential operations such as game logic, user interaction, and overall flow. While there are additional supporting classes that handle specific tasks (e.g., utilities, minor features)..
 \subsection{PlayerController.cs}
 \begin{itemize}
@@ -27,7 +27,7 @@ The high-level program modules consist of the main classes that play a crucial r
 	\item \textbf{Data Tables:} Enemy health, position, and state (idle, attack, patrol).
 	\item \textbf{Error Handling:} Implements fail-safes to reset enemy states if unexpected behavior occurs, such as getting stuck in the environment.
 \end{itemize}
-\subsubsection{InventorySystem.cs}
+\subsection{InventorySystem.cs}
 \begin{itemize}
 	\item \textbf{Description:} Manages the player’s inventory, including adding, removing, and using items. Links the player's interactions with the in-game shop.
 	\item \textbf{Data Tables:} Item IDs, quantities, and descriptions.
@@ -41,7 +41,7 @@ The high-level program modules consist of the main classes that play a crucial r
 	\item \textbf{Error Handling:} Detects and fixes null references in UI elements to prevent crashes.
 \end{itemize}
 
-\subsection{ Design of Implemented Module Structure:}
+\section{Design of Implemented Module Structure:}
 Below is the diagram for Module Structure
 \\
 \\
@@ -83,28 +83,24 @@ Below is the diagram for Module Structure
 	\end{itemize}
 	
 
-\subsection{Test Strategies}
+\section{Test Strategies}
 The testing approach employed during the game development process was centred on both automated and manual testing in order to guarantee seamless gaming, error-free operation, and an intuitive user experience. Important phases of testing were:
-
-\begin{itemize}
-	\item \textbf{Unit Testing:}
+	\subsection{Unit Testing}
 	Every essential feature, such as inventory management, adversary AI behaviour, and player controls, was tested separately.
 	The behaviour of scripts such as PlayerController.cs and EnemyAI.cs, which handle erroneous input, boundary conditions, and stress testing, was verified by testing.
-	\item \textbf{Integration Testing:}
+	\subsection{Integration Testing:}
 	Each module's ability to function alone was checked, and then it was examined how well it interacted with the others (for example, connecting the PlayerController to the InventorySystem and UIManager).
-	\item \textbf{Play Testing (Manual Testing):}
+	\subsection{Play Testing (Manual Testing):}
 	Frequent playtests were carried out to find flaws that could only be discovered during runtime, difficulty balancing, and unexpected enemy AI behaviours.
 	Playtests also paid attention to the user experience.
-	\item \textbf{Performance Testing:}
+	\subsection{Performance Testing:}
 	Load testing was done to ensure the game performed well on a range of devices, testing for frame rate drops, memory usage, and lag.
 	The game’s performance was checked with higher numbers of enemies, effects, and environmental details to ensure it could handle complex scenarios without performance degradation.
-	\item \textbf{Regression Testing:}
+	\subsection{Regression Testing:}
 	Every time a new feature or bug fix was introduced, regression testing ensured that previously working features were still functioning as intended.
 	The version control system (GitHub) was used to track and merge changes, helping avoid conflicts that could introduce bugs. Several times Git has helped to travel back in time and fix issues in code.
-\end{itemize}
-
-\subsection{White Box Testing}
-\subsubsection{Unit Testing the Individual Classes and Methods:} 
+\section{White Box Testing}
+\subsection{Unit Testing the Individual Classes and Methods:} 
 Software testing that involves testing individual program modules or components separately is known as unit testing \cite{fowler_unit_test}. A function, method, or class is the smallest tested component that makes up a "unit" in an application. Unit testing makes sure that every single portion of the code runs correctly without interference from outside sources.
 \begin{itemize}
 	\item  \textbf{AI.cs Unit Test:}
@@ -246,7 +242,7 @@ In integration testing we check how the code for different functionalities integ
 \end{itemize}
 \subsection{Black Box Testing}
 Black box testing is a type of software testing where the tester assesses an application's functioning without looking inside its core components or operations.
-\subsubsection{Techniques Used in Black Box Testing:}
+\subsection{Techniques Used in Black Box Testing:}
 \begin{itemize}
 	\item \textbf{Equivalence Partitioning:} Equivalence Partitioning splits input data into segments that are valid and invalid in order to minimize the number of test cases.
 	\item \textbf{Boundary Value Analysis:} Boundary Value Analysis tests the limits of the partitions, including the points directly below, at, and above the boundaries.
@@ -292,28 +288,27 @@ Black box testing is a type of software testing where the tester assesses an app
 	\caption{Black-box testing results for game scripts}
 \end{table}
 \subsection{Usability Report For Proximity Assault}
-\begin{enumerate}
-	\item \textbf{Title Page`}
+	\subsection{Title Page}
 	\begin{itemize}
 		\item \textbf{Title:} Usability Report for Proximity Assault
 		\item \textbf{Project:} First-Person Shooting Game
 		\item \textbf{Prepared By:} Muhammad Atif
 	\end{itemize}
-	\item \textbf{Executive Summary}
+	\subsection{Executive Summary}
 	The purpose of this usability test was to assess the player's experience in the game, in which terrorists have taken over a facility and are getting ready to produce nuclear weapons. The player's goal is to use a variety of weaponry to destroy every enemy so that a group of scientists can disassemble the nuclear apparatus.
-	\item \textbf{Introduction}
+	\subsection{Introduction}
 	\begin{itemize}
 		\item \textbf{Purpose:} The goal of the test was to find problems with the controls, navigation, and degree of difficulty of the gaming experience.
 		\item \textbf{Scope:} The first two stages of the game, the weapon swapping mechanism, enemy encounters, and mission objectives.
 	\end{itemize}
-	\item \textbf{Methodology}
+	\subsection{Methodology}
 	\begin{itemize}
 		\item \textbf{Participants:} 4 participants, aged 18-25 with a mix of gaming experience.
 		\item \textbf{Environment:} The test was conducted on the users phones.
 		\item \textbf{Task:} The user navigate through the scenes, switched weapons and tried different weapons.
 		\item \textbf{Data Collection:} Data was collected through screen recording.
 	\end{itemize}
-	\item \textbf{Results}
+	\subsection{Results}
 	\begin{itemize}
 		\item \textbf{Task Completion Rate}
 		\begin{table}[h]
@@ -343,7 +338,7 @@ Black box testing is a type of software testing where the tester assesses an app
 		\item{ \textbf{Feedback:} "I wasn't sure what I was supposed to do after defeating the enemies."}
 	\end{itemize}
 	\end{itemize}
-	\item \textbf{Analysis}
+	\subsection{Analysis}
 	\begin{itemize}
 		\item \textbf{Weapon Switching Mechanism:}
 		The present weapon swapping system is clumsy and takes away from the intense fighting.
@@ -352,16 +347,15 @@ Black box testing is a type of software testing where the tester assesses an app
 		\item \textbf{Mission Objectives:}
 		The lack of clarity in communicating objectives resulted in a decrease in task success rates and confusion.
 	\end{itemize}
-		\item \textbf{Recommendations}
+		\subsection{Recommendations}
 	\begin{itemize}
 		\item \textbf{Improve Weapon Switching}
 
 		\item \textbf{Enhance AI Behavior}
 		\item \textbf{Clearer Mission Guidance}
 	\end{itemize}
-	\item \textbf{Conclusion}
+	\subsection{Conclusion}
 	Overall, the results of the usability test indicated that while participants found the concept and ambiance of the game engaging, they found certain elements difficult to grasp, such as switching between weapons and mission objectives.
-\end{enumerate}
 
 
 

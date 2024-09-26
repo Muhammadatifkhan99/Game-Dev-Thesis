@@ -1,8 +1,7 @@
 \chapter{Deployment}
-When deploying a unity project for Android and IOS the major deployment task are grouped into some categories below.
-\subsection{Major Deployment Tasks}
-\begin{enumerate}
-	\item \textbf{Project Setup and Configuration}
+Deploying a unity project for Android and IOS requires the following major deployment tasks that are described below.
+\section{Major Deployment Tasks}
+	\subsection{Project Setup and Configuration}
 	\begin{itemize}
 		\item \textbf{Unit Project Setting:}
 		\begin{itemize}
@@ -16,7 +15,7 @@ When deploying a unity project for Android and IOS the major deployment task are
 			\item {For \textbf{iOS}: Ensure\textbf{ Xcode} is installed and up to date for building the game.}
 		\end{itemize}
 	\end{itemize}
-	\item \textbf{Testing and Optimization}
+	\subsection{Testing and Optimization}
 	\begin{itemize}
 		\item \textbf{Mobile Specific Testing:}
 		\begin{itemize}
@@ -31,21 +30,7 @@ When deploying a unity project for Android and IOS the major deployment task are
 			\item {Use Profiler and Memory Management tools in Unity to optimize code and improve loading time.}
 		\end{itemize}
 	\end{itemize}
-	\item\textbf{Platform Specific Features Integration}
-	\begin{itemize}
-		\item \textbf{Android:}
-		\begin{itemize}
-			\item {Implement the Google Play Services}
-			\item {Integrate with Google Play In-App Purchases}
-		\end{itemize}
-		\item \textbf{iOS:}
-		\begin{itemize}
-			\item {Implement the Game Center for achievements, leaderboards, cloud saves}
-			\item {Set up Apple In-App Purchase}
-			\item {Integrate with Apple's Push Notification Service}
-		\end{itemize}
-	\end{itemize}
-	\item \textbf{App Store Compliance}
+	\subsection{App Store Compliance}
 	\begin{itemize}
 		\item \textbf{Android (Google Play):}
 		\begin{itemize}
@@ -60,7 +45,7 @@ When deploying a unity project for Android and IOS the major deployment task are
 			\item {Prepare \textbf{App Store Connect} with all required assets.}
 		\end{itemize}
 	\end{itemize}
-	\item \textbf{Distribution of the Product:}
+	\subsection{Distribution of the Product:}
 	\begin{itemize}
 		\item \textbf{Android (Google Play):}
 		\begin{itemize}
@@ -76,15 +61,13 @@ When deploying a unity project for Android and IOS the major deployment task are
 			\item {Set up \textbf{TestFlight} to beta test the game and gather feedback before public release.}
 		\end{itemize}
 	\end{itemize}
-	\item \textbf{Analytics, Ads, and Monetization Setup}
+	\subsection{Analytics, Ads, and Monetization Setup}
 	\begin{itemize}
 		\item {Integrate\textbf{ Unity Analytics, Google Analytics}, or a third-party service to track user behavior, retention, and engagement.}
-		\item {Implement In-App Purchases (IAP) and set up necessary stores (Google Play and Apple App Store) for micro transactions.}
 		\item {Ensure ads and monetization strategies comply with both Google Play and App Store guidelines.}
 	\end{itemize}
-\end{enumerate}
 
-\subsection{Deployment Diagram}
+\section{Deployment Diagram}
 
 The deployment diagram illustrates the architecture of the Proximity Assault for Android and iOS platforms. The game application includes essential features such as a local inventory system, an in-game AI system, a dummy shop system, and two levels that are stored locally on the device. Future enhancements include the integration of an external server for the shop system to facilitate transactions and Firebase for tracking user data and analytic. Currently, the game does not have cloud-based features or multiplayer support, as depicted in the diagram.\\
 \\

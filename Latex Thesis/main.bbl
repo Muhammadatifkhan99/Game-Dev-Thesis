@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{saint_exupery_little_1943}
+{\sc de~Saint-Exupéry, A.}
+\newblock {\em The Little Prince}.
+\newblock Reynal \& Hitchcock, New York, 1943.
+\newblock "You become responsible, forever, for what you have tamed.".
+
 \bibitem{fowler_unit_test}
 {\sc Fowler, M.}
 \newblock Unit test.
@@ -16,6 +22,11 @@
 \newblock {\em Designing Data-Intensive Applications: The Big Ideas Behind
   Reliable, Scalable, and Maintainable Systems}.
 \newblock O'Reilly Media, Inc., Sebastopol, CA, 2017.
+
+\bibitem{newzoo2023}
+{\sc Newzoo}.
+\newblock Newzoo global games market report 2023, 2023.
+\newblock Accessed: 2024-09-26.
 
 \bibitem{singh2023effect}
 {\sc Singh, G., and Vangavolu, V. V. S. S.~R.}
