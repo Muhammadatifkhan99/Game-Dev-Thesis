@@ -2,6 +2,7 @@
 % main.tex
 \documentclass[a4paper,12pt]{report}
 \usepackage{graphicx} % For including graphics (logos)
+\usepackage{float}
 \usepackage[top=2cm]{geometry}
 \usepackage{times}
 \usepackage{hyperref}
@@ -36,8 +37,11 @@
 	\input{title}  % Include the title file
 	\cleardoublepage  % Start from a new page
 	\pagenumbering{arabic} 
-	\setcounter{page}{1} 
+	\setcounter{page}{1}
+	\include{abstract}
+	\include{acknowledgment}
 	\tableofcontents
+	\listoffigures
 	
 \include{chapter1}
 \include{chapter2}

@@ -17,8 +17,12 @@ System design involves defining the overall architecture, breaking down the syst
 
 The architecture of a game plays a very important role in engaging in responsive experiences \cite{kleppmann2017designing}. Following are the architectural components typically found in the gaming system.
 
-
-\includegraphics[width=18cm,height=12cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=18cm,height=12cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/GameEngine.png}
+	\caption{Architecture of a Gaming System}
+	\label{fig:Architecture of Gaming System}
+\end{figure}
 
 \begin{itemize}
 	\item\textbf{Game Engine:} A game's central component that handles input, handles physics, renders images, and coordinates game logic. With built-in tools and libraries, game engines such as Unity or Unreal Engine facilitate creation.
@@ -30,13 +34,11 @@ The architecture of a game plays a very important role in engaging in responsive
 \end{itemize}
 
 \subsection{Types of Architectures}
-The following text discuss some of the Architecture that could be used in the game systems \cite{unity_ecs}.
+The following text discuss some of the Architecture that could be used in the game systems \cite{unity_architecture}.
 \begin{itemize}
 	\item \textbf{Modular Architecture: }A game with a modular architecture is easier to maintain and expand since it is divided into discrete modules for things like physics, AI, and rendered. Code reuse is encouraged by the separate development and testing of each module. Careful design is necessary to provide seamless integration and manage dependencies.
 	\item \textbf{Entity-Component-System (ECS) Architecture: }Game logic is divided into entities (game objects), components (data), and systems (logic) in ECS design. This method encourages code reuse and the division of responsibilities while improving flexibility and efficiency. ECS scales well and works well for applications that require high performance, despite its initial complexity of implementation.
 	\item \textbf{Client-Server Architecture: }With client-server architecture, user input and rendering are handled by the client, and game logic is executed on a server. Updates and management of multiplayer games are made easier by this centralization. But it needs stable network connections, and a strong infrastructure is needed because the server can become a bottleneck.
-	\item \textbf{Peer-to-Peer (P2P) Architecture: }Through direct game state sharing, each player's device serves as both a client and a server in a peer-to-peer (P2P) architecture. This can lower latency and lessen server load. But maintaining consistency and security is difficult, and it's not appropriate for every kind of game, particularly ones that require central authority. 
-	\item \textbf{Hybrid Architecture: }To capitalize on each architecture's advantages, hybrid architecture blends components from other architectures. This adaptability enables customized solutions to meet particular gaming needs. It can, however, be difficult to plan and execute, requiring careful component integration.
 \end{itemize}
 
 \subsection{Architecture of Proximity Assault}
@@ -118,7 +120,13 @@ The top-level package, \textbf{Unity Engine}, contains several key components or
 	\item \textbf{Development Tools} supports Version Control Integrated Development Environment (IDE)
 \end{itemize}
 
-\includegraphics[width=6cm,height=24cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4cm,height=12cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png}
+	\caption{Architecture Diagram}
+	\label{fig:Architecture Design Diagram}
+\end{figure}
+
 
 \section{Component Level Design}
 \begin{enumerate}
@@ -183,24 +191,17 @@ The top-level package, \textbf{Unity Engine}, contains several key components or
 			\item \textbf{Audio Clips}: Contains audio files for various game actions (e.g., gunfire, explosions).
 			\item \textbf{Sound Manager}: Plays and manages sound effects.
 		\end{itemize}
-		\item \textbf{Music}
-		\begin{itemize}
-			\item \textbf{Background Tracks}: Provides ambient music to enhance gameplay experience.
-			\item \textbf{Music Manager}: Controls playback and transitions between tracks.
-		\end{itemize}
 		\item \textbf{Audio Engine}
 		\begin{itemize}
 			\item \textbf{Spatial Audio}: Provides 3D audio effects based on player position.
 			\item \textbf{Volume Control}: Adjusts the volume of different audio sources.
 		\end{itemize}
 	\end{itemize}
-	
 	\item \textbf{User Interface (UI)}
 	\begin{itemize}
 		\item \textbf{HUD (Heads-Up Display)}
 		\begin{itemize}
 			\item \textbf{Health Bar}: Displays the player's current health.
-			\item \textbf{Ammo Count}: Shows the number of bullets remaining.
 			\item \textbf{Mission Objectives}: Lists current goals and progress.
 		\end{itemize}
 		\item \textbf{Menus}
@@ -216,7 +217,6 @@ The top-level package, \textbf{Unity Engine}, contains several key components or
 		\item \textbf{Mission System}
 		\begin{itemize}
 			\item \textbf{Mission Manager}: Controls mission objectives, tracking, and progression.
-			\item \textbf{Quest Tracker}: Updates and displays the status of active quests.
 		\end{itemize}
 		\item \textbf{Weapon System}
 		\begin{itemize}
@@ -229,95 +229,50 @@ The top-level package, \textbf{Unity Engine}, contains several key components or
 			\item \textbf{Damage Calculation}: Calculates damage dealt to characters and applies effects.
 		\end{itemize}
 	\end{itemize}
-	
-	\item \textbf{Optimization}
-	\begin{itemize}
-		\item \textbf{Level of Detail (LOD)}
-		\begin{itemize}
-			\item \textbf{LOD Manager}: Adjusts the detail of objects based on their distance from the player.
-			\item \textbf{LOD Models}: Provides different versions of models with varying detail levels.
-		\end{itemize}
-		\item \textbf{Occlusion Culling}
-		\begin{itemize}
-			\item \textbf{Culling Manager}: Determines which objects are visible and should be rendered.
-			\item \textbf{Visibility Calculation}: Computes object visibility based on camera view.
-		\end{itemize}
-		\item \textbf{Performance Profiling}
-		\begin{itemize}
-			\item \textbf{Profiler Tools}: Monitors game performance metrics such as frame rate and memory usage.
-			\item \textbf{Optimization Reports}: Provides feedback on performance issues and potential improvements.
-		\end{itemize}
-	\end{itemize}
 	\item \textbf{Development Tools}
 	\begin{itemize}
-		\item \textbf{Version Control}
-		\begin{itemize}
-			\item \textbf{Version Control System (e.g., Git)}: Manages code changes and collaboration.
-			\item \textbf{Branching Strategy}: Organizes development workflows and code versions.
-		\end{itemize}
-		\item \textbf{Integrated Development Environment (IDE)}
-		\begin{itemize}
-			\item \textbf{IDE Tools (e.g., Visual Studio)}: Provides coding, debugging, and testing capabilities.
-			\item \textbf{Plugin Support}: Extends functionality with additional tools and features.
-		\end{itemize}
+		\item \textbf{Version Control tools include Git and GitHub}
+		\item \textbf{Visual Studio}
 	\end{itemize}
 \end{enumerate}
 
-\includegraphics[width=8cm,height=24cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm,height=16cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png}
+	\caption{Component Diagram}
+	\label{fig:Component Diagram}
+\end{figure}
+
 
 \section{Detailed Activity Diagram for a Game}
 
 \begin{enumerate}
 	\item \textbf{Player Starts the Game}
-	\begin{itemize}
-		\item The player starts the game, leading to the loading of the main menu.
-	\end{itemize}
 	
 	\item \textbf{Main Menu}
-	\begin{itemize}
-		\item The game engine handles the main menu where the player can choose to start a new game or load a saved game.
-	\end{itemize}
-	
+
 	\item \textbf{New Game or Load Saved Game}
-	\begin{itemize}
-		\item If a new game is selected, the game initializes and loads the first level.
-		\item If a saved game is selected, the game loads the save data and the appropriate level.
-	\end{itemize}
 	
 	\item \textbf{Main Game Loop}
-	\begin{itemize}
-		\item The main game loop begins, handling player input, updating the game state, and rendering frames.
-	\end{itemize}
 	
 	\item \textbf{Player Actions and Events}
-	\begin{itemize}
-		\item Within the game loop, the engine processes player actions, checks for collisions, and handles enemy interactions (combat).
-		\item If the player’s health reaches zero, the game over screen is displayed.
-	\end{itemize}
-	
+
+
 	\item \textbf{Mission Complete}
-	\begin{itemize}
-		\item If a mission is completed, the next level is loaded.
-	\end{itemize}
 	
 	\item \textbf{Pause Menu}
-	\begin{itemize}
-		\item If the game is paused, the pause menu is displayed, allowing the player to resume the game or quit to the main menu.
-	\end{itemize}
 	
 	\item \textbf{Game Over}
-	\begin{itemize}
-		\item When the player dies, the game over screen is displayed and then returns to the main menu.
-	\end{itemize}
+
 \end{enumerate}
 \section{Activity Diagram}
-Below is the activity diagram for Proximity Assault.
-\\
-\\
-\includegraphics[width=12cm,height=16cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png}
-\\
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=12cm,height=16cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ActivityDiagram.png}
+	\caption{Activity Diagram}
+	\label{fig:Activity Diagram}
+\end{figure}
 \section{Class Diagram}
-
 A class diagram for a gaming system typically includes classes such as \texttt{Game}, \texttt{Player}, \texttt{Enemy}, \texttt{Level}, \texttt{Weapon}, \texttt{Mission}, and various managers (e.g., \texttt{AudioManager}, \texttt{InputManager}, \texttt{PhysicsEngine}, \texttt{GraphicsEngine}, \texttt{AISystem}). These classes interact to represent the game's core components, manage gameplay elements, handle player inputs, simulate physics, render graphics, and control AI behaviors. Each class has specific attributes and methods that define their roles and responsibilities within the game.
 
 \begin{itemize}
@@ -334,7 +289,13 @@ A class diagram for a gaming system typically includes classes such as \texttt{G
 	\item \textbf{Enumerations}: Defining various game states, enemy types, behavior types, and actions.
 \end{itemize}
 
-\includegraphics[width=16cm,height=6cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm,height=6cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg}
+	\caption{Class Diagram}
+	\label{fig:Class Diagram}
+\end{figure}
+
 
 \section{Data Flow Diagram}
 A class diagram for a gaming system typically includes classes such as \texttt{Game}, \texttt{Player}, \texttt{Enemy}, \texttt{Level}, \texttt{Weapon}, \texttt{Mission}, and various managers (e.g., \texttt{AudioManager}, \texttt{InputManager}, \texttt{PhysicsEngine}, \texttt{GraphicsEngine}, \texttt{AISystem}). These classes interact to represent the game's core components, manage gameplay elements, handle player inputs, simulate physics, render graphics, and control AI behaviors. Each class has specific attributes and methods that define their roles and responsibilities within the game.
@@ -350,11 +311,13 @@ A Level 0 Data Flow Diagram (DFD), also known as a context diagram, represents t
 \end{itemize}
 
 A Level 0 DFD provides a basic, overall picture of how the system interacts with its environment.
-\\
-\\
-\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm,height=6cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png}
+	\caption{Level 0 DFD}
+	\label{fig:Level 0 Data Flow Diagram}
+\end{figure}
 
-\includegraphics[width=16cm,height=6cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png}
 
 \subsubsection{Explaination}
 
@@ -380,7 +343,12 @@ A Level 1 Data Flow Diagram (DFD) for an action shooting game represents a detai
 
 The Level 1 DFD provides a detailed view of how the game system processes player inputs, manages game logic, handles enemy AI, and produces visual and audio outputs.
 
-\includegraphics[width=16cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm,height=8cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png}
+	\caption{Level 1 DFD}
+	\label{fig:Level 1 Data Flow Diagram}
+\end{figure}
 
 
 \subsubsection{Explaination}
@@ -410,7 +378,13 @@ The Networking section in the Data Flow Diagram (DFD) is included as a placehold
 Data design involves structuring and organizing data to efficiently store, manage, and retrieve it within a system.
 The data design diagram focuses on how the data is structured and managed.
 \\
-\includegraphics[width=17.5cm,height=13.5cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=14cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png}
+	\caption{Data Design}
+	\label{fig:Data Design Diagram}
+\end{figure}
+
 \subsection{Major Business Entities}
 \textbf{Player:}
 Represents the main character. This entity is central to the game, tracking important attributes like health, position, and equipped weapon.
@@ -449,13 +423,12 @@ Represents the system controlling enemy behavior and navigation.
 
 \subsection{Entity Relationship Diagram}
 The Entity-Relationship Diagram (ERD) for the game illustrates the main components and how they interact with each other.
-\\
-\\
-\\
-\\
-\includegraphics[width=17.5cm,height=12cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png}
-\\
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png}
+	\caption{Entity Relationship Diagram}
+	\label{fig:ERD}
+\end{figure}
 \subsubsection{Explanation:}
 
 \textbf{Entities and Attributes:}
@@ -487,12 +460,6 @@ The Entity-Relationship Diagram (ERD) for the game illustrates the main componen
 
 \subsection{User-Interface Design}
 \subsubsection{UI Design Decisions}
-A minimalist approach was used to design the game UI and just implement the main features to make it functional. The color scheme of the game was set to be a light color so that it can be more adjusted to the user's eyes. The UI was completed implemented from the unity asset store and no tools such as Figma or Adobe Packages were used for designing the interface.
-\subsubsection{UI Implementation}
-The UI was implemented using the the unity game engine. Below are some of the screenshots that can be referenced for more details.
-% figures to be included
-% figures to be included
-% figures to be included
-include figures
+A minimalist approach was used to design the game UI and just implement the main features to make it functional. The color scheme of the game was set to be a light color so that it can be more adjusted to the user's eyes. The UI was completed implemented from the unity asset store while some of the rectifications were made using tools such as Figma or Adobe Packages for designing the interface.
 
 

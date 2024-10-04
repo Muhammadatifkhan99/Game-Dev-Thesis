@@ -33,4 +33,10 @@
 \newblock Effect of resolution on player performance and experience in virtual
   reality low-fidelity first-person shooting games, 2023.
 
+\bibitem{unity_architecture}
+{\sc Technologies, U.}
+\newblock Unity engine architecture.
+\newblock \url{https://docs.unity3d.com/Manual/unity-architecture.html}, 2024.
+\newblock Accessed: 2024-10-03.
+
 \end{thebibliography}

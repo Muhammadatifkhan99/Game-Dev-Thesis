@@ -17,46 +17,44 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: acm.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for "unity_ecs"
-You've used 6 entries,
+You've used 7 entries,
             2253 wiz_defined-function locations,
-            566 strings with 4773 characters,
-and the built_in function-call counts, 1373 in all, are:
-= -- 122
-> -- 47
+            571 strings with 4910 characters,
+and the built_in function-call counts, 1596 in all, are:
+= -- 144
+> -- 54
 < -- 0
-+ -- 21
-- -- 14
-* -- 62
-:= -- 236
-add.period$ -- 19
-call.type$ -- 6
-change.case$ -- 22
++ -- 24
+- -- 16
+* -- 70
+:= -- 273
+add.period$ -- 23
+call.type$ -- 7
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 63
-empty$ -- 139
-format.name$ -- 14
-if$ -- 291
+cite$ -- 7
+duplicate$ -- 71
+empty$ -- 162
+format.name$ -- 16
+if$ -- 340
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 7
 missing$ -- 6
-newline$ -- 34
-num.names$ -- 12
-pop$ -- 48
+newline$ -- 40
+num.names$ -- 14
+pop$ -- 56
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 22
 quote$ -- 0
-skip$ -- 39
+skip$ -- 45
 stack$ -- 0
-substring$ -- 31
-swap$ -- 12
+substring$ -- 36
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 22
 warning$ -- 0
-while$ -- 12
-width$ -- 7
-write$ -- 66
-(There was 1 warning)
+while$ -- 14
+width$ -- 8
+write$ -- 78
