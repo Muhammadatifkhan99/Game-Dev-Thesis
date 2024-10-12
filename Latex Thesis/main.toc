@@ -1,140 +1,136 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Story Line}{7}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Features}{7}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Project Description}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Project Description}{7}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objectives}{8}{section.1.4}%
-\contentsline {section}{\numberline {1.5}History of Unity Game Unity Engine}{9}{section.1.5}%
+\contentsline {section}{\numberline {1.5}History of Unity Game Unity Engine}{8}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Main Concept of Unity}{9}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Project Motivation}{9}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Project Significance:}{9}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Project Uniqueness:}{10}{section.1.9}%
-\contentsline {section}{\numberline {1.10}Project Scope:}{10}{section.1.10}%
-\contentsline {subsection}{\numberline {1.10.1}Imagine:}{10}{subsection.1.10.1}%
+\contentsline {section}{\numberline {1.9}Project Uniqueness:}{9}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Project Scope:}{9}{section.1.10}%
+\contentsline {subsection}{\numberline {1.10.1}Imagine:}{9}{subsection.1.10.1}%
 \contentsline {chapter}{\numberline {2}Feasibility and Analysis}{11}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Existing Systems}{11}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Variety of Enemies}{11}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Weapons}{11}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Intense Action}{12}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Intense Action}{11}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}A Series Full of Innovation}{12}{subsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.1.5}Advantages}{12}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Drawbacks}{12}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Problems}{13}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.7}Problems}{12}{subsection.2.1.7}%
 \contentsline {subsection}{\numberline {2.1.8}Overall}{13}{subsection.2.1.8}%
 \contentsline {section}{\numberline {2.2}Proximity Assault}{13}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Twist}{13}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Dream world Assault}{13}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Target Audience}{14}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Positive Impact}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Educational Value }{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Co-op Fun}{14}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Detail Feasibility Report}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.2.3}Target Audience}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Positive Impact}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Educational Value }{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Co-op Fun}{13}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Detail Feasibility Report}{13}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Technical Feasibility}{14}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Economic Feasibility}{14}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Social Feasibility}{15}{subsection.2.4.3}%
-\contentsline {chapter}{\numberline {3}Requirement Specification}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Functional Requirements}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Main Gameplay}{16}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Progression}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Inventory and Upgrades}{16}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Menus and UI}{17}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Non-Functional}{17}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Performance}{17}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Graphics And Audio}{17}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Controls}{17}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}User Interface}{17}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}UI Requirements}{17}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Main menus}{18}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Gameplay Screen}{18}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Inventory Screen}{18}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Pause menu}{18}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Persona}{18}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Demographics}{18}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Gaming Habits}{18}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Motivation}{19}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Concerns}{19}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}User Interactions with the System through Use Case Diagram}{19}{section.3.6}%
-\contentsline {section}{\numberline {3.7}System Boundary}{20}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Use Case}{20}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Include and exclude}{21}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Actor Use Case Relationships}{21}{subsection.3.7.3}%
-\contentsline {section}{\numberline {3.8}Development Environment Requirements}{21}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Development Environment}{21}{subsection.3.8.1}%
-\contentsline {subsubsection}{Operating System}{21}{section*.5}%
-\contentsline {subsection}{\numberline {3.8.2}Hardware}{22}{subsection.3.8.2}%
-\contentsline {subsubsection}{Processor}{22}{section*.6}%
-\contentsline {subsubsection}{RAM}{22}{section*.7}%
-\contentsline {subsubsection}{Graphics Card}{22}{section*.8}%
-\contentsline {subsubsection}{Storages}{22}{section*.9}%
-\contentsline {subsection}{\numberline {3.8.3}Software}{22}{subsection.3.8.3}%
-\contentsline {subsubsection}{Unity Game Engine}{22}{section*.10}%
-\contentsline {subsubsection}{Version Control}{22}{section*.11}%
-\contentsline {subsubsection}{Graphics Designing Software}{22}{section*.12}%
-\contentsline {subsubsection}{3D Modeling Software}{22}{section*.13}%
-\contentsline {subsubsection}{Audio Editing}{22}{section*.14}%
-\contentsline {subsubsection}{Asset Creations}{23}{section*.15}%
-\contentsline {section}{\numberline {3.9}Minimum Hardware Requirements for Running the Game}{23}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1}Android}{23}{subsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.9.2}iOS}{23}{subsection.3.9.2}%
-\contentsline {chapter}{\numberline {4}System Design}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Architecture Design}{24}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Architecture Design of Gaming System}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Types of Architectures}{26}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Architecture of Proximity Assault}{26}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Architecture Design Diagram}{28}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Component Level Design}{29}{section.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Social Feasibility}{14}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Requirement Specification}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Functional Requirements}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Main Gameplay}{15}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Progression}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Inventory and Upgrades}{15}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Menus and UI}{15}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Non-Functional}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Performance}{16}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Graphics And Audio}{16}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Controls}{16}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}User Interface}{16}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}UI Requirements}{16}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Main menus}{16}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Gameplay Screen}{16}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Inventory Screen}{17}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Pause menu}{17}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Persona}{17}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Demographics}{17}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Gaming Habits}{17}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Motivation}{17}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Concerns}{17}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}User Interactions with the System through Use Case Diagram}{18}{section.3.6}%
+\contentsline {section}{\numberline {3.7}System Boundary}{18}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Use Case}{19}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Include and exclude}{19}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Actor Use Case Relationships}{19}{subsection.3.7.3}%
+\contentsline {section}{\numberline {3.8}Development Environment Requirements}{19}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Development Environment}{19}{subsection.3.8.1}%
+\contentsline {subsubsection}{Operating System}{19}{section*.5}%
+\contentsline {subsection}{\numberline {3.8.2}Hardware}{20}{subsection.3.8.2}%
+\contentsline {subsubsection}{Processor}{20}{section*.6}%
+\contentsline {subsubsection}{RAM}{20}{section*.7}%
+\contentsline {subsubsection}{Graphics Card}{20}{section*.8}%
+\contentsline {subsubsection}{Storages}{20}{section*.9}%
+\contentsline {subsection}{\numberline {3.8.3}Software}{20}{subsection.3.8.3}%
+\contentsline {subsubsection}{Unity Game Engine}{20}{section*.10}%
+\contentsline {subsubsection}{Version Control}{20}{section*.11}%
+\contentsline {subsubsection}{Graphics Designing Software}{20}{section*.12}%
+\contentsline {subsubsection}{3D Modeling Software}{20}{section*.13}%
+\contentsline {subsubsection}{Audio Editing}{20}{section*.14}%
+\contentsline {subsubsection}{Asset Creations}{20}{section*.15}%
+\contentsline {section}{\numberline {3.9}Minimum Hardware Requirements for Running the Game}{21}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Android}{21}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}iOS}{21}{subsection.3.9.2}%
+\contentsline {chapter}{\numberline {4}System Design}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Architecture Design}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Architecture Design of Gaming System}{22}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Types of Architectures}{24}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Architecture of Proximity Assault}{24}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Architecture Design Diagram}{25}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Component Level Design}{28}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Detailed Activity Diagram for a Game}{31}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Activity Diagram}{32}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Class Diagram}{32}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}User-Interface Design}{34}{subsection.4.5.1}%
+\contentsline {subsubsection}{UI Design Decisions}{34}{section*.16}%
 \contentsline {section}{\numberline {4.6}Data Flow Diagram}{34}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Level 0 Data Flow Diagram (DFD)}{34}{subsection.4.6.1}%
-\contentsline {subsubsection}{Explaination}{35}{section*.16}%
+\contentsline {subsubsection}{Explaination}{35}{section*.17}%
 \contentsline {subsection}{\numberline {4.6.2}Level 1 Data Flow Diagram (DFD)}{35}{subsection.4.6.2}%
-\contentsline {subsubsection}{Explaination}{36}{section*.17}%
-\contentsline {subsubsection}{Networking Component in DFD}{37}{section*.18}%
-\contentsline {section}{\numberline {4.7}Data Design}{37}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Major Business Entities}{37}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Entity Relationship Diagram}{38}{subsection.4.7.2}%
-\contentsline {subsubsection}{Explanation:}{39}{section*.19}%
-\contentsline {subsection}{\numberline {4.7.3}User-Interface Design}{39}{subsection.4.7.3}%
-\contentsline {subsubsection}{UI Design Decisions}{39}{section*.20}%
-\contentsline {chapter}{\numberline {5}Implementation and Testing}{40}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Implementation Environment}{40}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Programming Tools:}{40}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Repository Setup \& Version Control:}{40}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Integration:}{40}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Team Development Tools}{40}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}High Level Description Major Program Modules:}{40}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}PlayerController.cs}{41}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}EnemyAI.cs}{41}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}InventorySystem.cs}{41}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}UIManager.cs}{41}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Design of Implemented Module Structure:}{41}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Test Strategies}{43}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Unit Testing}{43}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Integration Testing:}{43}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Play Testing (Manual Testing):}{43}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Performance Testing:}{44}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Regression Testing:}{44}{subsection.5.4.5}%
-\contentsline {section}{\numberline {5.5}White Box Testing}{44}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Unit Testing the Individual Classes and Methods:}{44}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Integration Testing}{46}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Black Box Testing}{48}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}Techniques Used in Black Box Testing:}{48}{subsection.5.5.4}%
-\contentsline {subsection}{\numberline {5.5.5}Usability Report For Proximity Assault}{48}{subsection.5.5.5}%
-\contentsline {subsection}{\numberline {5.5.6}Title Page}{48}{subsection.5.5.6}%
-\contentsline {subsection}{\numberline {5.5.7}Executive Summary}{48}{subsection.5.5.7}%
-\contentsline {subsection}{\numberline {5.5.8}Introduction}{49}{subsection.5.5.8}%
-\contentsline {subsection}{\numberline {5.5.9}Methodology}{49}{subsection.5.5.9}%
-\contentsline {subsection}{\numberline {5.5.10}Results}{49}{subsection.5.5.10}%
-\contentsline {subsection}{\numberline {5.5.11}Analysis}{50}{subsection.5.5.11}%
-\contentsline {subsection}{\numberline {5.5.12}Recommendations}{50}{subsection.5.5.12}%
-\contentsline {subsection}{\numberline {5.5.13}Conclusion}{50}{subsection.5.5.13}%
-\contentsline {chapter}{\numberline {6}Deployment}{51}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Major Deployment Tasks}{51}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Project Setup and Configuration}{51}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Testing and Optimization}{51}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}App Store Compliance}{52}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}Distribution of the Product:}{52}{subsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.1.5}Analytics, Ads, and Monetization Setup}{52}{subsection.6.1.5}%
-\contentsline {section}{\numberline {6.2}Deployment Diagram}{53}{section.6.2}%
+\contentsline {subsubsection}{Explaination}{36}{section*.18}%
+\contentsline {subsubsection}{Networking Component in DFD}{36}{section*.19}%
+\contentsline {chapter}{\numberline {5}Implementation and Testing}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implementation Environment}{38}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Programming Tools:}{38}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Repository Setup \& Version Control:}{38}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Integration:}{38}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Team Development Tools}{38}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}High Level Description Major Program Modules:}{38}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}PlayerController.cs}{38}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}EnemyAI.cs}{39}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}InventorySystem.cs}{39}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}UIManager.cs}{39}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Design of Implemented Module Structure:}{39}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Test Strategies}{41}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Unit Testing}{41}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Integration Testing:}{41}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Play Testing (Manual Testing):}{41}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Performance Testing:}{41}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Regression Testing:}{42}{subsection.5.4.5}%
+\contentsline {section}{\numberline {5.5}White Box Testing}{42}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Unit Testing the Individual Classes and Methods:}{42}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Integration Testing}{44}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Black Box Testing}{45}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}Techniques Used in Black Box Testing:}{45}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}Usability Report For Proximity Assault}{46}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.6}Title Page}{46}{subsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.5.7}Executive Summary}{46}{subsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.5.8}Introduction}{46}{subsection.5.5.8}%
+\contentsline {subsection}{\numberline {5.5.9}Methodology}{46}{subsection.5.5.9}%
+\contentsline {subsection}{\numberline {5.5.10}Results}{46}{subsection.5.5.10}%
+\contentsline {subsection}{\numberline {5.5.11}Analysis}{47}{subsection.5.5.11}%
+\contentsline {subsection}{\numberline {5.5.12}Recommendations}{47}{subsection.5.5.12}%
+\contentsline {subsection}{\numberline {5.5.13}Conclusion}{47}{subsection.5.5.13}%
+\contentsline {chapter}{\numberline {6}Deployment}{48}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Major Deployment Tasks}{48}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Project Setup and Configuration}{48}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Testing and Optimization}{48}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}App Store Compliance}{49}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Distribution of the Product:}{49}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Analytics, Ads, and Monetization Setup}{49}{subsection.6.1.5}%
+\contentsline {section}{\numberline {6.2}Deployment Diagram}{49}{section.6.2}%

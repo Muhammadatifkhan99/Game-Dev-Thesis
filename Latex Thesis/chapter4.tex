@@ -122,7 +122,7 @@ The top-level package, \textbf{Unity Engine}, contains several key components or
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=4cm,height=12cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png}
+	\includegraphics[width=0.6\textwidth,height=0.9\textheight]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ArchitectureofProximityA4.png}
 	\caption{Architecture Diagram}
 	\label{fig:Architecture Design Diagram}
 \end{figure}
@@ -238,7 +238,8 @@ The top-level package, \textbf{Unity Engine}, contains several key components or
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=6cm,height=16cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png}
+%	width=8cm,height=20cm
+	\includegraphics[width=0.45\textwidth,height=0.9\textheight]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ComponentDesign.png}
 	\caption{Component Diagram}
 	\label{fig:Component Diagram}
 \end{figure}
@@ -291,10 +292,14 @@ A class diagram for a gaming system typically includes classes such as \texttt{G
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=16cm,height=6cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ClassDiagram.jpg}
+	\includegraphics[width=17cm,height=14cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/umlcd.png}
 	\caption{Class Diagram}
 	\label{fig:Class Diagram}
 \end{figure}
+
+\subsection{User-Interface Design}
+\subsubsection{UI Design Decisions}
+A minimalist approach was used to design the game UI and just implement the main features to make it functional. The color scheme of the game was set to be a light color so that it can be more adjusted to the user's eyes. The UI was completed implemented from the unity asset store while some of the rectifications were made using tools such as Figma or Adobe Packages for designing the interface.
 
 
 \section{Data Flow Diagram}
@@ -313,7 +318,7 @@ A Level 0 Data Flow Diagram (DFD), also known as a context diagram, represents t
 A Level 0 DFD provides a basic, overall picture of how the system interacts with its environment.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=10cm,height=6cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel0ng.png}
+	\includegraphics[width=5cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/Level0DFD.png}
 	\caption{Level 0 DFD}
 	\label{fig:Level 0 Data Flow Diagram}
 \end{figure}
@@ -341,16 +346,6 @@ A Level 1 Data Flow Diagram (DFD) for an action shooting game represents a detai
 	\item \textbf{Game Data Management}: Stores and retrieves game-related data, such as player progress, scores, and game state.
 \end{itemize}
 
-The Level 1 DFD provides a detailed view of how the game system processes player inputs, manages game logic, handles enemy AI, and produces visual and audio outputs.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=16cm,height=8cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataFlowDiagramLevel1.png}
-	\caption{Level 1 DFD}
-	\label{fig:Level 1 Data Flow Diagram}
-\end{figure}
-
-
 \subsubsection{Explaination}
 \begin{itemize}
 	\item \textbf{Player (P)}: Provides input to the system.
@@ -373,93 +368,91 @@ The Level 1 DFD provides a detailed view of how the game system processes player
 	\item \textbf{Audio Assets (AA)}: Audio files and sound effects.
 \end{itemize}
 \subsubsection{Networking Component in DFD}
-The Networking section in the Data Flow Diagram (DFD) is included as a placeholder for potential future development. While the current version of the game is designed for offline play.
-\section{Data Design}
-Data design involves structuring and organizing data to efficiently store, manage, and retrieve it within a system.
-The data design diagram focuses on how the data is structured and managed.
-\\
+The Networking section in the Data Flow Diagram (DFD) is included as a placeholder for potential future development. While the current version of the game is designed for offline play.\\
+The Level 1 DFD provides a detailed view of how the game system processes player inputs, manages game logic, handles enemy AI, and produces visual and audio outputs.\\
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=14cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png}
-	\caption{Data Design}
-	\label{fig:Data Design Diagram}
+	\includegraphics[width=8cm,height=9cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/Level1DFD.png}
+	\caption{Level 1 DFD}
+	\label{fig:Level 1 Data Flow Diagram}
 \end{figure}
 
-\subsection{Major Business Entities}
-\textbf{Player:}
-Represents the main character. This entity is central to the game, tracking important attributes like health, position, and equipped weapon.
+%\section{Data Design}
+%Data design involves structuring and organizing data to efficiently store, manage, and retrieve it within a system.
+%The data design diagram focuses on how the data is structured and managed.
 \\
-\\
-\textbf{Weapon:}
-Represents the tools player uses to attack enemies.
-\\
-\\
-\textbf{Enemy:}
-Represents the adversaries the player encounters. Enemies have attributes like type, health, and position, determining their behavior and how challenging they are for the player.
-\\
-\\
-\textbf{Level:}
-Represents the different stages or environments in the game. Each level contains objectives and enemies, and its structure impacts the game's progression.
-\\
-\\
-\textbf{Objective:}
-Represents specific goals the player must achieve within a level or mission.
-\\
-\\
-\textbf{HUD (Heads-Up Display):}
-Represents the on-screen display elements that provide the player with essential information like health, ammo, and mission status.
-\\
-\\
-\textbf{HealthBar}
-A component of the HUD that shows the player's current health.
-\\
-\\
-\textbf{AmmoCount:}
-Another component of the HUD that displays the current ammo count.
-\\
-\\
-\textbf{AI System:}
-Represents the system controlling enemy behavior and navigation.
-
-\subsection{Entity Relationship Diagram}
-The Entity-Relationship Diagram (ERD) for the game illustrates the main components and how they interact with each other.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=16cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png}
-	\caption{Entity Relationship Diagram}
-	\label{fig:ERD}
-\end{figure}
-\subsubsection{Explanation:}
-
-\textbf{Entities and Attributes:}
-
-\begin{itemize}
-	\item \textbf{Player}: Represents the player with attributes for ID, name, health, position, and currently equipped weapon.
-	\item \textbf{Weapon}: Represents weapons with attributes for ID, name, damage, range, and ammo count.
-	\item \textbf{Enemy}: Represents enemies with attributes for ID, type, health, and position.
-	\item \textbf{Level}: Represents game levels with attributes for ID, level number, objectives, and list of enemies.
-	\item \textbf{Objective}: Represents mission objectives with ID, description, and completion status.
-	\item \textbf{Mission}: Represents missions with ID, description, completion status, and associated objectives.
-	\item \textbf{HUD}: Represents the Heads-Up Display with IDs for health bar, ammo count, and mission objectives.
-	\item \textbf{HealthBar and AmmoCount}: Display current and maximum health and ammo, respectively.
-\end{itemize}
-
-\textbf{Relationships:}
-
-\begin{itemize}
-	\item \textbf{Player - Weapon}: Players equip weapons.
-	\item \textbf{Player - Mission}: Players participate in missions.
-	\item \textbf{Mission - Objective}: Missions include objectives.
-	\item \textbf{Level - Mission}: Levels contain missions.
-	\item \textbf{Level - Enemy}: Levels contain enemies.
-	\item \textbf{Mission - Enemy}: Missions involve enemies.
-	\item \textbf{HUD - HealthBar}: HUD displays health bar information.
-	\item \textbf{HUD - AmmoCount}: HUD displays ammo count information.
-	\item \textbf{HUD - Objective}: HUD displays mission objectives.
-\end{itemize}
-
-\subsection{User-Interface Design}
-\subsubsection{UI Design Decisions}
-A minimalist approach was used to design the game UI and just implement the main features to make it functional. The color scheme of the game was set to be a light color so that it can be more adjusted to the user's eyes. The UI was completed implemented from the unity asset store while some of the rectifications were made using tools such as Figma or Adobe Packages for designing the interface.
-
-
+%\begin{figure}[H]
+%	\centering
+%    \includegraphics[width=14cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/DataDesign.png}
+%	\caption{Data Design}
+%	\label{fig:Data Design Diagram}
+%\end{figure}
+%
+%\subsection{Major Business Entities}
+%\textbf{Player:}
+%Represents the main character. This entity is central to the game, tracking important attributes like health, position, and equipped weapon.
+%\\
+%\\
+%\textbf{Weapon:}
+%Represents the tools player uses to attack enemies.
+%\\
+%\\
+%\textbf{Enemy:}
+%Represents the adversaries the player encounters. Enemies have attributes like type, health, and position, determining their behavior and how challenging they are for the player.
+%\\
+%\\
+%\textbf{Level:}
+%Represents the different stages or environments in the game. Each level contains objectives and enemies, and its structure impacts the game's progression.
+%\\
+%\\
+%\textbf{Objective:}
+%Represents specific goals the player must achieve within a level or mission.
+%\\
+%\\
+%\textbf{HUD (Heads-Up Display):}
+%Represents the on-screen display elements that provide the player with essential information like health, ammo, and mission status.
+%\\
+%\\
+%\textbf{HealthBar}
+%A component of the HUD that shows the player's current health.
+%\\
+%\\
+%\textbf{AmmoCount:}
+%Another component of the HUD that displays the current ammo count.
+%\\
+%\\
+%\textbf{AI System:}
+%Represents the system controlling enemy behavior and navigation.
+%\subsection{Entity Relationship Diagram}
+%The Entity-Relationship Diagram (ERD) for the game illustrates the main components and how they interact with each other.
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=16cm,height=10cm]{C://Users/PMLS/Desktop/Thesis/Latex Thesis/ERD (1).png}
+%	\caption{Entity Relationship Diagram}
+%	\label{fig:ERD}
+%\end{figure}
+%\subsubsection{Explanation:}
+%
+%\textbf{Entities and Attributes:}
+%\begin{itemize}
+%	\item \textbf{Player}: Represents the player with attributes for ID, name, health, position, and currently equipped weapon.
+%	\item \textbf{Weapon}: Represents weapons with attributes for ID, name, damage, range, and ammo count.
+%	\item \textbf{Enemy}: Represents enemies with attributes for ID, type, health, and position.
+%	\item \textbf{Level}: Represents game levels with attributes for ID, level number, objectives, and list of enemies.
+%	\item \textbf{Objective}: Represents mission objectives with ID, description, and completion status.
+%	\item \textbf{Mission}: Represents missions with ID, description, completion status, and associated objectives.
+%	\item \textbf{HUD}: Represents the Heads-Up Display with IDs for health bar, ammo count, and mission objectives.
+%	\item \textbf{HealthBar and AmmoCount}: Display current and maximum health and ammo, respectively.
+%\end{itemize}
+%
+%\textbf{Relationships:}
+%\begin{itemize}
+%%	\item \textbf{Player - Mission}: Players participate in missions.
+%	\item \textbf{Mission - Objective}: Missions include objectives.
+%	\item \textbf{Level - Mission}: Levels contain missions.
+%	\item \textbf{Level - Enemy}: Levels contain enemies.
+%	\item \textbf{Mission - Enemy}: Missions involve enemies.
+%	\item \textbf{HUD - HealthBar}: HUD displays health bar information.
+%	\item \textbf{HUD - AmmoCount}: HUD displays ammo count information.
+%	\item \textbf{HUD - Objective}: HUD displays mission objectives.
+%\end{itemize}
